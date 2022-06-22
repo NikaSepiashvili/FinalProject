@@ -18,15 +18,34 @@ import android.content.BroadcastReceiver
 import android.content.Intent
 import android.content.IntentFilter
 import android.net.ConnectivityManager
+import androidx.room.Room
+import com.example.project.data.AppDatabase
+import com.example.project.data.Session
+import com.example.project.data.SessionDao
+import android.widget.Button
 
 
 const val BASE_URL = "https://jsonplaceholder.typicode.com/"
 class MainActivity : AppCompatActivity() {
-
+    lateinit var SessionDao: SessionDao
     lateinit var myAdapter: MyAdapter
     lateinit var linearLayoutManager: LinearLayoutManager
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        val database = Room.databaseBuilder(
+            applicationContext,
+            AppDatabase::class.java,
+            "session"
+        ).build()
+        SessionDao = database.SessionDao()
+
+
+        val button: Button = findViewById(R.id.Id)
+        button.setOnClickListener {
+
+        }
+
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
