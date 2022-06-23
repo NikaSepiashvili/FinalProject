@@ -32,11 +32,11 @@
 
             <Button
                 android:id="@+id/Id"
-                android:textStyle="bold"
-                android:textSize = "20sp"
+                android:layout_width="70dp"
+                android:layout_height="45dp"
                 android:text="User Id"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:textSize="14sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/body"
