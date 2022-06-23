@@ -8,6 +8,6 @@ import androidx.room.PrimaryKey
 @Entity(tableName = "session")
 data class Session(
     @PrimaryKey(autoGenerate = true) val id: Int = 0,
-    @ColumnInfo(name = "id") val ran: Double,
-    @ColumnInfo(name = "desc") val swam: String,
+    @ColumnInfo(name = "uid") val uid: Double,
+    @ColumnInfo(name = "udesc") val udesc: String,
     )

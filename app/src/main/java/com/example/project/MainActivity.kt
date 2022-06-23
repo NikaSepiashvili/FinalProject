@@ -40,10 +40,9 @@ class MainActivity : AppCompatActivity() {
         SessionDao = database.SessionDao()
 
 
-        val button: Button = findViewById(R.id.Id)
-        button.setOnClickListener {
-
-        }
+//        val button: Button = findViewById(R.id.Id)
+//        button.setOnClickListener {
+//        }
 
 
         super.onCreate(savedInstanceState)
