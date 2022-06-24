@@ -10,7 +10,7 @@ The project is also configured to be linked with
 Firebase and it can be used to receive notifications
 from Firebase server.
 
-Main page shows data, which is taken from web server:
+Main page shows data, which is taken from REST API:
 
 ![image](https://user-images.githubusercontent.com/72093664/175482534-93cbf24d-0e94-4e64-8a9a-6f17aba16405.png)
 
