@@ -12,8 +12,8 @@ from Firebase server.
 
 Main page shows data, which is taken from web server:
 
-![image](https://user-images.githubusercontent.com/72093664/175481827-254b43f0-f11c-4eed-ad0e-79cf48d7e14c.png)
+![image](https://user-images.githubusercontent.com/72093664/175482534-93cbf24d-0e94-4e64-8a9a-6f17aba16405.png)
 
 In notification bar we have a push notification and we can see if Airplane Mode is enabled or disabled
 
-![image](https://user-images.githubusercontent.com/72093664/175482332-45a7d1e7-64c3-4a6b-a78d-0327b0cbb559.png)
+![image](https://user-images.githubusercontent.com/72093664/175482571-58e53c2d-d09c-44f7-84f4-463f4253ddc1.png)
