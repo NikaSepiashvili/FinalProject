@@ -11,7 +11,7 @@ object NotificationUtil {
 
         val notification = NotificationCompat.Builder(context, CHANNEL_ID)
             .setSmallIcon(R.drawable.ic_launcher_background)
-            .setContentTitle("Selected Item")
+            .setContentTitle("Airplane Status")
             .setContentText(text)
             .setPriority(NotificationCompat.PRIORITY_DEFAULT)
             .build()
