@@ -21,5 +21,9 @@ In notification bar we have a push notification and we can see if Airplane Mode 
 
 We can use Firebase Cloud Messaging to send custom notification to the application
 
-![Notification](https://user-images.githubusercontent.com/86533999/175486858-816d0550-2bd6-4210-9c53-d863282b535e.PNG)
+![Firebase cloud messaging](https://user-images.githubusercontent.com/86533999/175492578-1af86495-7206-49c2-ac77-071c4178594f.PNG)
+
+![Notification](https://user-images.githubusercontent.com/86533999/175492629-0206325c-d4f2-4b33-85d5-8f362a119665.PNG)
+
+
 
